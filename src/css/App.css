@@ -1,0 +1,37 @@
+.App {
+	text-align: center;
+	font-family: monospace;
+}
+.home-page-img {
+	height: 100%;
+	width: 100%;
+	margin: 1rem;
+}
+.search-results-section {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+}
+.status-message {
+	margin: 0 auto;
+	font-size: 1rem;
+	font-weight: bold;
+	color: seagreen;
+}
+button {
+	background-color: teal;
+	border-style: solid;
+	border-color: teal;
+	border-radius: 5px;
+	color: whitesmoke;
+	padding: 10px;
+	margin: 1rem;
+}
+button:hover {
+	cursor: pointer;
+}
+.wishlist-display {
+	margin-top: 50%;
+	margin-left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}

@@ -1,0 +1,74 @@
+.products-list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+}
+.result-item {
+	margin: 1rem;
+	font-size: 1rem;
+	display: grid;
+	grid-template-columns: 100px 100px 200px 100px 100px;
+	grid-column-gap: 0;
+}
+
+.search-result-list {
+	margin-right: 8rem;
+	margin-top: 1%;
+	text-align: left;
+	border-width: thin;
+	border-bottom-color: lightgrey;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.wish-list-operation {
+	margin-top: 1.5rem;
+	background-color: transparent;
+	color: teal;
+}
+
+.product-buy {
+	text-decoration: none;
+	background-color: teal;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 5px;
+	margin: 2rem;
+}
+.product-buy-link {
+	text-decoration: none;
+	color: white;
+	padding: 1.8rem;
+}
+.product-buy:hover {
+	background-color: turquoise;
+	cursor: pointer;
+}
+
+.product-image {
+	height: 80%;
+	width: 80%;
+}
+
+.product-name {
+	font-size: 1rem;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+.store-logo {
+	height: 70%;
+	width: 70%;
+	margin-top: 1rem;
+}
+.deal-logo {
+	height: 60%;
+	width: 60%;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+.product-price {
+	margin: 2.5rem;
+}

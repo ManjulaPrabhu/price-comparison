@@ -1,0 +1,60 @@
+.application-entry-section {
+	margin-bottom: 1rem;
+	padding-left: 2%;
+}
+.section-heading {
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.username-box {
+	margin: 1rem;
+	border-style: solid;
+	border-color: teal;
+	width: 20%;
+	height: 20px;
+}
+
+.application-entry-submit {
+	margin: 1rem;
+	background-color: transparent;
+	border-style: solid;
+	border-color: teal;
+	color: teal;
+	padding: 5px;
+}
+
+.application-entry-submit:hover {
+	cursor: pointer;
+}
+.logOut {
+	margin-left: 70%;
+	background-color: teal;
+	border-style: solid;
+	border-color: teal;
+	color: whitesmoke;
+	padding: 5px;
+}
+.logOut:hover {
+	cursor: pointer;
+}
+
+.input-section {
+	font-size: 1.2rem;
+	margin: 0 auto;
+}
+.search-input {
+	margin: 1rem;
+	border-style: solid;
+	border-color: teal;
+	width: 20%;
+	height: 20px;
+}
+.section-label {
+	color: teal;
+	font-weight: bold;
+	margin: 1rem;
+	font-size: 1.2rem;
+}
