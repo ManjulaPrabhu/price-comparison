@@ -197,4 +197,6 @@ app.get('/products', (request, response) => {
 			response.send(JSON.stringify(result));
 		});
 });
-app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`));
+app.listen(process.env.PORT || PORT, () =>
+	console.log(`listening on http://localhost:${PORT}`)
+);
